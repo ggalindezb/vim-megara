@@ -13,7 +13,7 @@ endif
 let g:colors_name="megara"
 
 " Editor color settings
-hi Normal          ctermbg=000
+hi Normal          ctermbg=none
 hi CursorLine      ctermbg=235   cterm=none
 hi CursorColumn    ctermbg=235
 
