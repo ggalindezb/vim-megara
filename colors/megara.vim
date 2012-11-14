@@ -30,7 +30,7 @@ hi Folded           ctermfg=53      ctermbg=none    cterm=bold
 " --------------------------------
 " Variable types
 " --------------------------------
-hi Boolean          ctermfg=88      ctermbg=none    cterm=none
+hi Boolean          ctermfg=167     ctermbg=none    cterm=none
 hi Character        ctermfg=144     ctermbg=none    cterm=none
 hi Number           ctermfg=172     ctermbg=none    cterm=none
 hi Float            ctermfg=135     ctermbg=none    cterm=none
@@ -64,7 +64,7 @@ hi Exception        ctermfg=118     ctermbg=none    cterm=bold
 hi Ignore           ctermfg=244     ctermbg=232     cterm=none
 hi IncSearch        ctermfg=193     ctermbg=16      cterm=none
 
-hi Keyword          ctermfg=161     ctermbg=none    cterm=none
+hi Keyword          ctermfg=103     ctermbg=none    cterm=none
 hi Label            ctermfg=229     ctermbg=none    cterm=none
 hi Macro            ctermfg=193     ctermbg=none    cterm=none
 hi SpecialKey       ctermfg=81      ctermbg=none    cterm=none
