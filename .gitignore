@@ -1,8 +1,2 @@
-" Ignore colortest
-colortest
-
-" Ignore the example colorschemes
-examples
-
 " Ignore real source files used for tests
 test_files/*
