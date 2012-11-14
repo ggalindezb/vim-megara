@@ -12,26 +12,44 @@ if exists("syntax_on")
 endif
 let g:colors_name="megara"
 
-"--------------------------------------------------------------------"
+"--------------------------------------------------------------------
+" General settings                                                  |
+"--------------------------------------------------------------------
+"--------------------------------------------------------------------
 " Syntax group  |   Foreground   |   Background  |   Style          |
-"--------------------------------------------------------------------"
+"--------------------------------------------------------------------
 " Editor GUI settings
 hi Normal           ctermfg=255     ctermbg=none    cterm=none
-hi CursorLine       ctermfg=none    ctermbg=235     cterm=none
+hi CursorLine       ctermfg=none    ctermbg=234     cterm=none
+hi LineNr           ctermfg=239     ctermbg=233     cterm=none
+hi CursorLineNR     ctermfg=none    ctermbg=240     cterm=none
 hi CursorColumn     ctermfg=none    ctermbg=235     cterm=none
+hi FoldColumn       ctermfg=53      ctermbg=none    cterm=bold
+hi Folded           ctermfg=53      ctermbg=none    cterm=bold
 
 " Language constructs
-hi Boolean          ctermfg=42      ctermbg=none    cterm=none
+" --------------------------------
+" Variable types
+" --------------------------------
+hi Boolean          ctermfg=88      ctermbg=none    cterm=none
 hi Character        ctermfg=144     ctermbg=none    cterm=none
 hi Number           ctermfg=172     ctermbg=none    cterm=none
-hi Statement        ctermfg=91      ctermbg=none    cterm=none
-hi String           ctermfg=38      ctermbg=none    cterm=none
-hi Conditional      ctermfg=161     ctermbg=none    cterm=bold
-hi Constant         ctermfg=119     ctermbg=none    cterm=bold
+hi Float            ctermfg=135     ctermbg=none    cterm=none
+hi String           ctermfg=107     ctermbg=none    cterm=none
+hi Constant         ctermfg=118     ctermbg=none    cterm=bold
+
+hi Statement        ctermfg=88      ctermbg=none    cterm=none
+hi Conditional      ctermfg=166     ctermbg=none    cterm=bold
 hi Cursor           ctermfg=16      ctermbg=253     cterm=none
 hi Debug            ctermfg=225     ctermbg=none    cterm=bold
-hi Define           ctermfg=25      ctermbg=none    cterm=none
 hi Delimiter        ctermfg=26      ctermbg=none    cterm=none
+hi Operator         ctermfg=91      ctermbg=none    cterm=none
+
+hi Function         ctermfg=55      ctermbg=none    cterm=bold
+hi Identifier       ctermfg=22      ctermbg=none    cterm=none
+hi Define           ctermfg=27      ctermbg=none    cterm=none
+hi Typedef          ctermfg=81      ctermbg=none    cterm=none
+hi Type             ctermfg=26      ctermbg=none    cterm=none
 
 " Vimdiff
 hi DiffAdd          ctermfg=none    ctermbg=24      cterm=none
@@ -43,11 +61,7 @@ hi Directory        ctermfg=118     ctermbg=none    cterm=bold
 hi Error            ctermfg=219     ctermbg=89      cterm=bold
 hi ErrorMsg         ctermfg=199     ctermbg=16      cterm=bold
 hi Exception        ctermfg=118     ctermbg=none    cterm=bold
-hi Float            ctermfg=135     ctermbg=none    cterm=none
-hi FoldColumn       ctermfg=53      ctermbg=none    cterm=bold
-hi Folded           ctermfg=53      ctermbg=none    cterm=bold
-hi Function         ctermfg=91      ctermbg=none    cterm=bold
-hi Identifier       ctermfg=159     ctermbg=none    cterm=none
+
 hi Ignore           ctermfg=244     ctermbg=232     cterm=none
 hi IncSearch        ctermfg=193     ctermbg=16      cterm=none
 
@@ -59,7 +73,6 @@ hi SpecialKey       ctermfg=81      ctermbg=none    cterm=none
 hi MatchParen       ctermfg=16      ctermbg=208     cterm=bold
 hi ModeMsg          ctermfg=229     ctermbg=none    cterm=none
 hi MoreMsg          ctermfg=229     ctermbg=none    cterm=none
-hi Operator         ctermfg=161     ctermbg=none    cterm=none
 
 " complete menu
 hi Pmenu            ctermfg=81      ctermbg=16      cterm=none
@@ -68,7 +81,7 @@ hi PmenuSbar        ctermfg=none    ctermbg=232     cterm=none
 hi PmenuThumb       ctermfg=81      ctermbg=232     cterm=none
 
 hi PreCondit        ctermfg=118     ctermbg=none    cterm=bold
-hi PreProc          ctermfg=172     ctermbg=none    cterm=none
+hi PreProc          ctermfg=118     ctermbg=none    cterm=none
 hi Question         ctermfg=81      ctermbg=none    cterm=none
 hi Repeat           ctermfg=161     ctermbg=none    cterm=bold
 hi Search           ctermfg=89      ctermbg=none    cterm=bold
@@ -88,8 +101,6 @@ hi Tag              ctermfg=161     ctermbg=none    cterm=none
 hi Title            ctermfg=166     ctermbg=none    cterm=none
 hi Todo             ctermfg=231     ctermbg=232     cterm=bold
 
-hi Typedef          ctermfg=81      ctermbg=none    cterm=none
-hi Type             ctermfg=27      ctermbg=none    cterm=none
 hi Underlined       ctermfg=244     ctermbg=none    cterm=underline
 
 hi VertSplit        ctermfg=244     ctermbg=232     cterm=bold
@@ -99,7 +110,14 @@ hi WarningMsg       ctermfg=231     ctermbg=238     cterm=bold
 hi WildMenu         ctermfg=81      ctermbg=16      cterm=none
 
 hi Comment          ctermfg=244     ctermbg=none    cterm=none
-hi LineNr           ctermfg=61      ctermbg=none    cterm=none
 hi NonText          ctermfg=250     ctermbg=none    cterm=none
 
 hi ColorColumn      ctermfg=none    ctermbg=none    cterm=none
+
+
+"--------------------------------------------------------------------
+" Specific settings                                                 |
+"--------------------------------------------------------------------
+hi rubyClass        ctermfg=30      ctermbg=none    cterm=none
+hi railsMethod      ctermfg=124     ctermbg=none    cterm=none
+hi rubyRailsRenderMethod    ctermfg=197     ctermbg=none    cterm=none
