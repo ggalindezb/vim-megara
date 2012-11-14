@@ -2,8 +2,7 @@
 " Name: Megara
 " Author: Gerardo Galindez <gerardo.galindez@gmail.com>
 " Maintainer: Gerardo Galindez <gerardo.galindez@gmail.com>
-" Version: 0.1
-" Last Time Modified: 13/Aug/2012
+" Version: 0.5
 
 set background=dark
 highlight clear
@@ -36,20 +35,20 @@ hi Character        ctermfg=144     ctermbg=none    cterm=none
 hi Number           ctermfg=172     ctermbg=none    cterm=none
 hi Float            ctermfg=135     ctermbg=none    cterm=none
 hi String           ctermfg=107     ctermbg=none    cterm=none
-hi Constant         ctermfg=118     ctermbg=none    cterm=bold
+hi Constant         ctermfg=98      ctermbg=none    cterm=bold
 
 hi Statement        ctermfg=88      ctermbg=none    cterm=none
-hi Conditional      ctermfg=166     ctermbg=none    cterm=bold
+hi Conditional      ctermfg=92      ctermbg=none    cterm=bold
 hi Cursor           ctermfg=16      ctermbg=253     cterm=none
 hi Debug            ctermfg=225     ctermbg=none    cterm=bold
 hi Delimiter        ctermfg=26      ctermbg=none    cterm=none
 hi Operator         ctermfg=91      ctermbg=none    cterm=none
 
-hi Function         ctermfg=55      ctermbg=none    cterm=bold
+hi Function         ctermfg=220     ctermbg=none    cterm=bold
 hi Identifier       ctermfg=22      ctermbg=none    cterm=none
-hi Define           ctermfg=27      ctermbg=none    cterm=none
+hi Define           ctermfg=62      ctermbg=none    cterm=none
 hi Typedef          ctermfg=81      ctermbg=none    cterm=none
-hi Type             ctermfg=26      ctermbg=none    cterm=none
+hi Type             ctermfg=208     ctermbg=none    cterm=none
 
 " Vimdiff
 hi DiffAdd          ctermfg=none    ctermbg=24      cterm=none
@@ -121,3 +120,4 @@ hi ColorColumn      ctermfg=none    ctermbg=none    cterm=none
 hi rubyClass        ctermfg=30      ctermbg=none    cterm=none
 hi railsMethod      ctermfg=124     ctermbg=none    cterm=none
 hi rubyRailsRenderMethod    ctermfg=197     ctermbg=none    cterm=none
+hi rubySymbol       ctermfg=106     ctermbg=none    cterm=none
