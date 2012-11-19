@@ -44,7 +44,7 @@ hi Debug            ctermfg=225     ctermbg=none    cterm=bold
 hi Delimiter        ctermfg=26      ctermbg=none    cterm=none
 hi Operator         ctermfg=91      ctermbg=none    cterm=none
 
-hi Function         ctermfg=220     ctermbg=none    cterm=bold
+hi Function         ctermfg=227     ctermbg=none    cterm=bold
 hi Identifier       ctermfg=22      ctermbg=none    cterm=none
 hi Define           ctermfg=62      ctermbg=none    cterm=none
 hi Typedef          ctermfg=81      ctermbg=none    cterm=none
