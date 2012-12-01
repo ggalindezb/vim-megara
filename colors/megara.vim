@@ -32,23 +32,24 @@ hi Folded           ctermfg=53      ctermbg=none    cterm=bold
 " --------------------------------
 hi Boolean          ctermfg=167     ctermbg=none    cterm=none
 hi Character        ctermfg=144     ctermbg=none    cterm=none
-hi Number           ctermfg=172     ctermbg=none    cterm=none
+hi Number           ctermfg=97      ctermbg=none    cterm=none
 hi Float            ctermfg=135     ctermbg=none    cterm=none
-hi String           ctermfg=107     ctermbg=none    cterm=none
-hi Constant         ctermfg=98      ctermbg=none    cterm=bold
+hi String           ctermfg=35      ctermbg=none    cterm=none
+hi StringDelimiter  ctermfg=28      ctermbg=none    cterm=none
+hi Constant         ctermfg=32      ctermbg=none    cterm=bold
 
-hi Statement        ctermfg=88      ctermbg=none    cterm=none
-hi Conditional      ctermfg=92      ctermbg=none    cterm=bold
-hi Cursor           ctermfg=16      ctermbg=253     cterm=none
+hi Statement        ctermfg=103     ctermbg=none    cterm=none
+hi Conditional      ctermfg=99      ctermbg=none    cterm=bold
+hi Cursor           ctermfg=16      ctermbg=255     cterm=none
 hi Debug            ctermfg=225     ctermbg=none    cterm=bold
 hi Delimiter        ctermfg=26      ctermbg=none    cterm=none
-hi Operator         ctermfg=91      ctermbg=none    cterm=none
+hi Operator         ctermfg=57      ctermbg=none    cterm=none
 
-hi Function         ctermfg=227     ctermbg=none    cterm=bold
-hi Identifier       ctermfg=22      ctermbg=none    cterm=none
+hi Function         ctermfg=33      ctermbg=none    cterm=bold
+hi Identifier       ctermfg=28      ctermbg=none    cterm=none
 hi Define           ctermfg=62      ctermbg=none    cterm=none
 hi Typedef          ctermfg=81      ctermbg=none    cterm=none
-hi Type             ctermfg=208     ctermbg=none    cterm=none
+hi Type             ctermfg=26      ctermbg=none    cterm=none
 
 " Vimdiff
 hi DiffAdd          ctermfg=none    ctermbg=24      cterm=none
@@ -69,7 +70,7 @@ hi Label            ctermfg=229     ctermbg=none    cterm=none
 hi Macro            ctermfg=193     ctermbg=none    cterm=none
 hi SpecialKey       ctermfg=81      ctermbg=none    cterm=none
 
-hi MatchParen       ctermfg=16      ctermbg=208     cterm=bold
+hi MatchParen       ctermfg=16      ctermbg=155     cterm=bold
 hi ModeMsg          ctermfg=229     ctermbg=none    cterm=none
 hi MoreMsg          ctermfg=229     ctermbg=none    cterm=none
 
@@ -80,7 +81,7 @@ hi PmenuSbar        ctermfg=none    ctermbg=232     cterm=none
 hi PmenuThumb       ctermfg=81      ctermbg=232     cterm=none
 
 hi PreCondit        ctermfg=118     ctermbg=none    cterm=bold
-hi PreProc          ctermfg=118     ctermbg=none    cterm=none
+hi PreProc          ctermfg=110     ctermbg=none    cterm=none
 hi Question         ctermfg=81      ctermbg=none    cterm=none
 hi Repeat           ctermfg=161     ctermbg=none    cterm=bold
 hi Search           ctermfg=89      ctermbg=none    cterm=bold
@@ -115,9 +116,13 @@ hi ColorColumn      ctermfg=none    ctermbg=none    cterm=none
 
 
 "--------------------------------------------------------------------
-" Specific settings                                                 |
+" Language specific settings                                        |
 "--------------------------------------------------------------------
+" ----------------------
+" Ruby
+" ----------------------
 hi rubyClass        ctermfg=30      ctermbg=none    cterm=none
-hi railsMethod      ctermfg=124     ctermbg=none    cterm=none
+hi rubyInstanceVariable     ctermfg=130     ctermbg=none    cterm=none
 hi rubyRailsRenderMethod    ctermfg=197     ctermbg=none    cterm=none
-hi rubySymbol       ctermfg=106     ctermbg=none    cterm=none
+hi rubySymbol       ctermfg=107     ctermbg=none    cterm=none
+hi railsMethod      ctermfg=124     ctermbg=none    cterm=none
