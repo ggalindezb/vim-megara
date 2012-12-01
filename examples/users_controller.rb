@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   ABC = 1
+  DE = 2
   # POST /users/login
   def login
     user_name = params[:user_name]

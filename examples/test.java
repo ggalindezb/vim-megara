@@ -3,6 +3,8 @@ import java.util.*;
 public class test {
 
   public static final int WHATEVER = 1;
+  private int x;
+  private double y;
 
   public static void main(String[] args) {
     LinkedList<Integer> list = new LinkedList<Integer>();

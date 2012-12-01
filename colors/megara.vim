@@ -30,7 +30,7 @@ hi Folded           ctermfg=53      ctermbg=none    cterm=bold
 " --------------------------------
 " Variable types
 " --------------------------------
-hi Boolean          ctermfg=167     ctermbg=none    cterm=none
+hi Boolean          ctermfg=166     ctermbg=none    cterm=none
 hi Character        ctermfg=144     ctermbg=none    cterm=none
 hi Number           ctermfg=97      ctermbg=none    cterm=none
 hi Float            ctermfg=135     ctermbg=none    cterm=none
@@ -116,13 +116,31 @@ hi ColorColumn      ctermfg=none    ctermbg=none    cterm=none
 
 
 "--------------------------------------------------------------------
-" Language specific settings                                        |
+" Specific settings                                                 |
 "--------------------------------------------------------------------
 " ----------------------
 " Ruby
 " ----------------------
 hi rubyClass        ctermfg=30      ctermbg=none    cterm=none
 hi rubyInstanceVariable     ctermfg=130     ctermbg=none    cterm=none
-hi rubyRailsRenderMethod    ctermfg=197     ctermbg=none    cterm=none
+hi rubyRailsRenderMethod    ctermfg=104     ctermbg=none    cterm=none
 hi rubySymbol       ctermfg=107     ctermbg=none    cterm=none
-hi railsMethod      ctermfg=124     ctermbg=none    cterm=none
+hi railsMethod      ctermfg=54      ctermbg=none    cterm=none
+
+" ----------------------
+" MiniBufExplorer
+" ----------------------
+"  Not changed, not visible buffers
+hi MBENormal        ctermfg=247     ctermbg=none    cterm=none
+"  Changed, not visible buffers
+hi MBEChanged       ctermfg=88      ctermbg=none    cterm=none
+
+"  Not changed, visible buffers
+hi MBEVisibleNormal ctermfg=28      ctermbg=none    cterm=none
+"  Changed, visible buffer
+hi MBEVisibleChangedActive ctermfg=160   ctermbg=none    cterm=none
+
+"  Not changed, current buffer
+hi MBEVisibleActive ctermfg=46      ctermbg=none    cterm=none
+"  Changed, current buffer
+hi MBEVisibleChanged ctermfg=124     ctermbg=none    cterm=none
